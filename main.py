@@ -26,7 +26,7 @@ def preprocessing(input_features: InputFeatures):
     dict_f = {
     'goals': input_features.goals,
     'assists': input_features.assists,
-    'minutes played': input_features.minutes_played,
+    'minutes_played': input_features.minutes_played,
     'games_injured': input_features.games_injured,
     'award': input_features.award,
     'highest_value': input_features.highest_value
